@@ -1,0 +1,3 @@
+include assistant/README.md
+include assistant/requirements.txt
+recursive-include assistant *

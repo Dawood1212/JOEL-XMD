@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jarvis-assistant"
+version = "0.1.0"
+description = "Modular voice assistant (wake-word, STT, NLP, TTS)"
+authors = [ {name = "Generated"} ]
+readme = "assistant/README.md"
+requires-python = ">=3.8"
+dependencies = [
+  "SpeechRecognition>=3.8.1",
+  "pyttsx3>=2.90",
+  "requests>=2.28",
+  "pyaudio>=0.2.11",
+  "spacy>=3.0",
+  "pocketsphinx>=0.1.15",
+]
